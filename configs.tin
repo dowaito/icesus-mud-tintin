@@ -1,14 +1,14 @@
 #config {256 colors}    {on}
 #config {buffer size}   {500000}
 #config {color patch}   {on}
-#config {command echo}  {off}
+#config {command echo}  {on}
 #config {connect retry} {60}
 #config {history size}  {2000}
 #config {log}           {html}
 #config {mccp}          {on}
 #config {packet patch}  {5}
 #config {repeat char}   {!}
-#config {repeat enter}  {off}
+#config {repeat enter}  {on}
 #config {scroll lock}   {on}
 #config {speedwalk}     {off}
 #config {tintin char}   {#}
@@ -19,5 +19,5 @@
 #config {wordwrap}      {on}
 
 #nop HTTP://TINTIN.SOURCEFORGE.NET/SCRIPTS/WINDOW.PHP;
-#nop #CONFIG {CONVERT META}  {ON};
+#CONFIG {CONVERT META}  {ON};
 
