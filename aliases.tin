@@ -25,7 +25,7 @@
 #alias whereami {creator room}
 
 #nop PROMPTS
-#alias p1   {set prompt [nl]> [[bright][green][hp][reset]/[green][maxhp][reset]] [[bright][cyan][sp][reset]/[cyan][maxsp][reset]] [[bright][white][exp][reset]] [[yellow]$[cash][reset]] [bright][magenta][status][reset]}
+#alias p1   {set prompt [nl]> [[bright][red][hp][reset]/[red][maxhp][reset]] [[bright][green][sp][reset]/[green][maxsp][reset]] [[bright][cyan][psp][reset]/[cyan][maxpsp][reset]] [[bright][white][exp][reset]] [[yellow]$[cash][reset]] [bright][magenta][status][reset]}
 
 #alias {cls} {
   #system {tput clear};
